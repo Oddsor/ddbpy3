@@ -26,7 +26,7 @@ class Send(object):
     def close(self):
         if self.sock:
             if DEBUG:
-                print "closing socket"
+                print ("closing socket")
             self.sock.close()
             self.sock = None
 
