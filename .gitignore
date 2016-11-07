@@ -1,5 +1,6 @@
 .*.swp
 *~
+.pypirc
 *.py[co]
 build
 dist

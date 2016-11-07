@@ -36,7 +36,7 @@ class Send(object):
 
     def _raw_send(self, packet):
         if DEBUG:
-            print binascii.hexlify(packet)
+            print (binascii.hexlify(packet))
         self.sock.sendall(packet)
 
     def send_payload(self, metric, ts, value):
@@ -74,7 +74,7 @@ class Query(object):
 
     def _raw_send(self, packet):
         if DEBUG:
-            print binascii.hexlify(packet)
+            print (binascii.hexlify(packet))
         self.sock.sendall(packet)
 
     def _recv(self):
