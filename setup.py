@@ -12,7 +12,7 @@ def fread(fname):
 
 
 def get_version():
-    VERSIONFILE = "ddbpy/_version.py"
+    VERSIONFILE = "ddbpy3/_version.py"
     verstrline = fread(VERSIONFILE).strip()
     vsre = r"^__version__ = ['\"]([^'\"]*)['\"]"
     mo = re.search(vsre, verstrline, re.M)
