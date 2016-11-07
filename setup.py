@@ -26,16 +26,16 @@ def get_version():
 
 dependencies = ['nose']
 
-setup(name='ddbpy',
+setup(name='ddbpy3',
       version=get_version(),
-      url='https://github.com/dataloop/dalmatiner-python-client',
+      url='https://github.com/lucilecoutouly/ddbpy3',
       download_url=
-      "https://github.com/dataloop/dalmatiner-python-client/tarball/v" +
+      "https://github.com/lucilecoutouly/ddbpy3/tarball/v" +
       get_version(),
       license="Apache License, Version 2.0",
       author='Steven Acreman',
-      author_email='steven.acreman@dataloop.io',
-      description='Dalmatiner Python Client',
+      author_email='lucile.coutouly@obs-nancay.fr',
+      description='Dalmatiner Python 3 Client',
       long_description=fread('README.rst'),
       keywords="dataloop dalmatiner",
       packages=find_packages(exclude=['tests']),
