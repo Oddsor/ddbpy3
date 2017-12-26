@@ -17,10 +17,10 @@ while True:
         packet = conn.recv(BUFFER_SIZE)
         if not packet:
             continue
-        print "received data:", binascii.hexlify(packet)
+        print("received data:", binascii.hexlify(packet))
         sleep(1)
-    except Exception, e:
-        print e
+    except Exception as e:
+        print(e)
         break
 
 s.close()

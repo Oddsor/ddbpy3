@@ -1,14 +1,14 @@
 COEFFICIENT_LIMIT = 14
 
-POINT_NULL = '\x00'
-POINT_INT = '\x01'
-POINT_FLOAT = '\x02'
+POINT_NULL = b'\x00'
+POINT_INT = b'\x01'
+POINT_FLOAT = b'\x02'
 
-LIST_METRICS = '\x01'
-LIST_BUCKETS = '\x03'
-STREAM_MODE = '\x04'
-PAYLOAD = '\x05'
-FLUSH = '\x06'
+LIST_METRICS = b'\x01'
+LIST_BUCKETS = b'\x03'
+STREAM_MODE = b'\x04'
+PAYLOAD = b'\x05'
+FLUSH = b'\x06'
 
 # Payload sizes bytes
 TCP_SS = 4

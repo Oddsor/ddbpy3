@@ -1,5 +1,5 @@
 import decimal
-import dproto_hdr
+from . import dproto_hdr
 import struct
 
 
@@ -45,7 +45,7 @@ def encode_name(name):
 
 
 def encode_metric_value(val_str):
-    if not isinstance(val_str, basestring):
+    if not isinstance(val_str, str):
         """
         since data will be mostly coming in as a string and because
         its easier to do the float encoding, assume value is always a string
